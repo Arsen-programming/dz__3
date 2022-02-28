@@ -1,3 +1,10 @@
+.li {
+  padding-left: 0;
+}
+ul{
+  padding-left: 0;
+  border: 1px solid black;
+}
 .todo-list-item {
   font-size: 1.25rem;
 }
@@ -15,7 +22,7 @@
 }
 
 .todo-list-item.done .todo-list-item-label {
-  text-decoration: line-through;
+  text-decoration:line-through;
 }
 
 .todo-list-item.important .todo-list-item-label {
